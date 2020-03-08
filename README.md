@@ -13,6 +13,7 @@ Spark loads raw data from S3, process the data and write back to a S3 bucket.
 The first dataset is a subset of real data from the Million Song Dataset. Each file is in JSON format and contains metadata about a song and the artist of that song. The files are partitioned by the first three letters of each song's track ID. For example, here are filepaths to two files in this dataset.
 
 Song data location: s3://udacity-dend/song_data
+
      ```
      song_data/A/B/C/TRABCEI128F424C983.json
      song_data/A/A/B/TRAABJL12903CDCF1A.json
